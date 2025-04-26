@@ -15,7 +15,7 @@ A modern React application for exploring Pokémon, building teams, simulating ba
 Clone the repository and install dependencies:
 
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/czeenotfound/pokedex_app
 cd pokemon-app
 npm install
 ```
