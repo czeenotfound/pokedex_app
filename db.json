@@ -1,0 +1,1126 @@
+{
+  "team": [
+    {
+      "id": 3,
+      "name": "venusaur",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "stats": [
+        {
+          "base_stat": 80,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 82,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 83,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 100,
+          "effort": 2,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 100,
+          "effort": 1,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 80,
+          "effort": 0,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 20,
+      "weight": 1000
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "types": [
+        "fire"
+      ],
+      "stats": [
+        {
+          "base_stat": 39,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 52,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 43,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 60,
+          "effort": 0,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 50,
+          "effort": 0,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 6,
+      "weight": 85
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "stats": [
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 90,
+          "effort": 2,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 40,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 80,
+          "effort": 1,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 75,
+          "effort": 0,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 10,
+      "weight": 295
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "types": [
+        "water"
+      ],
+      "stats": [
+        {
+          "base_stat": 44,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 48,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 50,
+          "effort": 0,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 64,
+          "effort": 0,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 43,
+          "effort": 0,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 5,
+      "weight": 90
+    },
+    {
+      "id": 16,
+      "name": "pidgey",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "stats": [
+        {
+          "base_stat": 40,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 40,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 35,
+          "effort": 0,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 35,
+          "effort": 0,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 56,
+          "effort": 1,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 3,
+      "weight": 18
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+      "types": [
+        "normal"
+      ],
+      "stats": [
+        {
+          "base_stat": 30,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 56,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 35,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 25,
+          "effort": 0,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 35,
+          "effort": 0,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 72,
+          "effort": 1,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ],
+      "height": 3,
+      "weight": 35
+    }
+  ],
+  "favorites": [],
+  "battles": [
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "bulbasaur",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "bulbasaur": 45,
+          "winner": "bulbasaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "bulbasaur": 49,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "bulbasaur": 45,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T14:29:49.477Z",
+      "id": 1
+    },
+    {
+      "pokemon1": "wartortle",
+      "pokemon2": "caterpie",
+      "winner": "wartortle",
+      "rounds": [
+        {
+          "stat": "hp",
+          "wartortle": 59,
+          "caterpie": 45,
+          "winner": "wartortle"
+        },
+        {
+          "stat": "attack",
+          "wartortle": 63,
+          "caterpie": 30,
+          "winner": "wartortle"
+        },
+        {
+          "stat": "speed",
+          "wartortle": 58,
+          "caterpie": 45,
+          "winner": "wartortle"
+        }
+      ],
+      "date": "2025-04-24T14:44:44.666Z",
+      "id": 2
+    },
+    {
+      "pokemon1": "ivysaur",
+      "pokemon2": "bulbasaur",
+      "winner": "ivysaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "ivysaur": 60,
+          "bulbasaur": 45,
+          "winner": "ivysaur"
+        },
+        {
+          "stat": "attack",
+          "ivysaur": 62,
+          "bulbasaur": 49,
+          "winner": "ivysaur"
+        },
+        {
+          "stat": "speed",
+          "ivysaur": 60,
+          "bulbasaur": 45,
+          "winner": "ivysaur"
+        }
+      ],
+      "date": "2025-04-24T14:47:18.886Z",
+      "id": 3
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "bulbasaur",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "bulbasaur": 45,
+          "winner": "bulbasaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "bulbasaur": 49,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "bulbasaur": 45,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T14:47:26.431Z",
+      "id": 4
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "venusaur",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "venusaur": 80,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "venusaur": 82,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "venusaur": 80,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T15:58:51.791Z",
+      "id": 5
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "beedrill",
+      "winner": "beedrill",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "beedrill": 65,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "beedrill": 75,
+          "winner": "beedrill"
+        }
+      ],
+      "date": "2025-04-24T16:10:39.863Z",
+      "id": 6
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "squirtle",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "squirtle": 44,
+          "winner": "squirtle"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "squirtle": 48,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "squirtle": 43,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T16:18:44.363Z",
+      "id": 7
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "squirtle",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "squirtle": 44,
+          "winner": "squirtle"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "squirtle": 48,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "squirtle": 43,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T16:18:44.365Z",
+      "id": 8
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "squirtle",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "squirtle": 44,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "squirtle": 48,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "squirtle": 43,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:19:03.462Z",
+      "id": 9
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "squirtle",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "squirtle": 44,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "squirtle": 48,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "squirtle": 43,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:19:03.462Z",
+      "id": 10
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "pidgey",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "pidgey": 40,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "pidgey": 45,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "pidgey": 56,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:20:29.239Z",
+      "id": 11
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "pidgey",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "pidgey": 40,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "pidgey": 45,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "pidgey": 56,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:20:29.240Z",
+      "id": 12
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "pidgey",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "pidgey": 40,
+          "winner": "pidgey"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "pidgey": 45,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "pidgey": 56,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T16:24:32.391Z",
+      "id": 13
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "pidgey",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "pidgey": 40,
+          "winner": "pidgey"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "pidgey": 45,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "pidgey": 56,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T16:24:32.392Z",
+      "id": 14
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "venusaur",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "venusaur": 80,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "venusaur": 82,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "venusaur": 80,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:24:48.353Z",
+      "id": 15
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "venusaur",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "venusaur": 80,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "venusaur": 82,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "venusaur": 80,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:24:48.353Z",
+      "id": 16
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "beedrill",
+      "winner": "beedrill",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "beedrill": 65,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "beedrill": 75,
+          "winner": "beedrill"
+        }
+      ],
+      "date": "2025-04-24T16:26:09.255Z",
+      "id": 17
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "venusaur",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "venusaur": 80,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "venusaur": 82,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "venusaur": 80,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T16:36:58.552Z",
+      "id": 18
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "beedrill",
+      "winner": "beedrill",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "beedrill": 65,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "beedrill": 75,
+          "winner": "beedrill"
+        }
+      ],
+      "date": "2025-04-24T16:38:21.472Z",
+      "id": 19
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "beedrill",
+      "winner": "beedrill",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "beedrill": 65,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "beedrill": 75,
+          "winner": "beedrill"
+        }
+      ],
+      "date": "2025-04-24T16:40:46.553Z",
+      "id": 20
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "beedrill",
+      "winner": "beedrill",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "beedrill": 65,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "beedrill": 75,
+          "winner": "beedrill"
+        }
+      ],
+      "date": "2025-04-24T16:44:09.264Z",
+      "id": 21
+    },
+    {
+      "pokemon1": "pidgey",
+      "pokemon2": "squirtle",
+      "winner": "squirtle",
+      "rounds": [
+        {
+          "stat": "hp",
+          "pidgey": 40,
+          "squirtle": 44,
+          "winner": "squirtle"
+        },
+        {
+          "stat": "attack",
+          "pidgey": 45,
+          "squirtle": 48,
+          "winner": "squirtle"
+        },
+        {
+          "stat": "speed",
+          "pidgey": 56,
+          "squirtle": 43,
+          "winner": "pidgey"
+        }
+      ],
+      "date": "2025-04-24T16:44:19.433Z",
+      "id": 22
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "squirtle",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "squirtle": 44,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "squirtle": 48,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "squirtle": 43,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T17:31:20.045Z",
+      "id": 23
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "beedrill",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "beedrill": 65,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "beedrill": 75,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T17:31:36.008Z",
+      "id": 24
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "rattata",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "rattata": 30,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "rattata": 56,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "rattata": 72,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-24T17:37:38.496Z",
+      "id": 25
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "squirtle",
+      "winner": "charmander",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "squirtle": 44,
+          "winner": "squirtle"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "squirtle": 48,
+          "winner": "charmander"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "squirtle": 43,
+          "winner": "charmander"
+        }
+      ],
+      "date": "2025-04-24T17:39:41.998Z",
+      "id": 26
+    },
+    {
+      "pokemon1": "venusaur",
+      "pokemon2": "beedrill",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "venusaur": 80,
+          "beedrill": 65,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "venusaur": 82,
+          "beedrill": 90,
+          "winner": "beedrill"
+        },
+        {
+          "stat": "speed",
+          "venusaur": 80,
+          "beedrill": 75,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-26T14:19:21.577Z",
+      "id": 27
+    },
+    {
+      "pokemon1": "charmander",
+      "pokemon2": "venusaur",
+      "winner": "venusaur",
+      "rounds": [
+        {
+          "stat": "hp",
+          "charmander": 39,
+          "venusaur": 80,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "attack",
+          "charmander": 52,
+          "venusaur": 82,
+          "winner": "venusaur"
+        },
+        {
+          "stat": "speed",
+          "charmander": 65,
+          "venusaur": 80,
+          "winner": "venusaur"
+        }
+      ],
+      "date": "2025-04-26T14:39:06.501Z",
+      "id": 28
+    }
+  ]
+}
