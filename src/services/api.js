@@ -33,6 +33,16 @@ export const addToTeam = async (pokemon) => {
     if (team.length >= 6) {
       throw new Error('Team is already full (max 6 Pokémon)');
     }
+
+    // Check if the Pokemon is already in the team
+    const isDuplicate = team.some(
+      (teamPokemon) => teamPokemon.name === pokemon.name
+    );
+
+    if (isDuplicate) {
+      throw new Error(`${pokemon.name} is already in your team!`);
+    }
+
     const response = await axios.post(`${JSON_SERVER_BASE}/team`, pokemon);
     return response.data;
   } catch (error) {
@@ -44,7 +54,10 @@ export const addToTeam = async (pokemon) => {
 export const removeFromTeam = async (id) => {
   try {
     const response = await axios.delete(`${JSON_SERVER_BASE}/team/${id}`);
-    return response.data;
+    if (response.status === 200) {
+      return true;
+    }
+    throw new Error('Failed to remove Pokémon');
   } catch (error) {
     console.error('Error removing from team:', error);
     throw new Error('Failed to remove Pokémon from team');
