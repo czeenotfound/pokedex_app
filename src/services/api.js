@@ -19,7 +19,7 @@ export const getPokemonDetails = async (nameOrId) => {
 // Team services
 export const getTeam = async () => {
   try {
-    const response = await axios.get(`https://pokemon-jsonserver.onrender.com/team`);
+    const response = await axios.get(`${JSON_SERVER_BASE}/team`);
     return response.data;
   } catch (error) {
     console.error('Error getting team:', error);
@@ -33,7 +33,7 @@ export const addToTeam = async (pokemon) => {
     if (team.length >= 6) {
       throw new Error('Team is already full (max 6 Pokémon)');
     }
-    const response = await axios.post(`https://pokemon-jsonserver.onrender.com/team`, pokemon);
+    const response = await axios.post(`${JSON_SERVER_BASE}/team`, pokemon);
     return response.data;
   } catch (error) {
     console.error('Error adding to team:', error);
@@ -43,7 +43,7 @@ export const addToTeam = async (pokemon) => {
 
 export const removeFromTeam = async (id) => {
   try {
-    const response = await axios.delete(`https://pokemon-jsonserver.onrender.com/team/${id}`);
+    const response = await axios.delete(`${JSON_SERVER_BASE}/team`, id);
     if (response.status === 200) {
       return true;
     }
@@ -56,7 +56,7 @@ export const removeFromTeam = async (id) => {
 
 // Battle services
 export const saveBattle = async (battle) => {
-  const response = await axios.post(`https://pokemon-jsonserver.onrender.com/battles`, {
+  const response = await axios.post(`${JSON_SERVER_BASE}/battles`, {
     ...battle,
     date: new Date().toISOString()
   });
@@ -64,7 +64,7 @@ export const saveBattle = async (battle) => {
 };
 
 export const getBattleHistory = async () => {
-  const response = await axios.get(`https://pokemon-jsonserver.onrender.com/battles`);
+  const response = await axios.get(`${JSON_SERVER_BASE}/battles`);
   return response.data;
 };
 
