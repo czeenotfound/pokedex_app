@@ -1,7 +1,9 @@
 import axios from 'axios';
+const apiUrl = import.meta.env.VITE_API_URL;
 
 const POKE_API_BASE = 'https://pokeapi.co/api/v2';
-const JSON_SERVER_BASE = 'https://pokemon-jsonserver.onrender.com';
+const JSON_SERVER_BASE = apiUrl;
+// const JSON_SERVER_BASE = 'http://localhost:10000';
 
 // PokeAPI services
 export const getPokemonList = async (limit = 20, offset = 0) => {
