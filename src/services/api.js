@@ -44,10 +44,7 @@ export const addToTeam = async (pokemon) => {
 export const removeFromTeam = async (id) => {
   try {
     const response = await axios.delete(`${JSON_SERVER_BASE}/team/${id}`);
-    if (response.status === 200) {
-      return true;
-    }
-    throw new Error('Failed to remove Pokémon');
+    return response.data;
   } catch (error) {
     console.error('Error removing from team:', error);
     throw new Error('Failed to remove Pokémon from team');
