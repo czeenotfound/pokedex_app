@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const POKE_API_BASE = 'https://pokeapi.co/api/v2';
-const JSON_SERVER_BASE = 'http://localhost:3001';
+const JSON_SERVER_BASE = 'https://pokemon-jsonserver.onrender.com';
 
 // PokeAPI services
 export const getPokemonList = async (limit = 20, offset = 0) => {
