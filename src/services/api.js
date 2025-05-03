@@ -43,7 +43,7 @@ export const addToTeam = async (pokemon) => {
 
 export const removeFromTeam = async (id) => {
   try {
-    const response = await axios.delete(`${JSON_SERVER_BASE}/team`, id);
+    const response = await axios.delete(`${JSON_SERVER_BASE}/team/${id}`);
     if (response.status === 200) {
       return true;
     }
